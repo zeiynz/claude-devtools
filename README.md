@@ -6,7 +6,7 @@
 
 Zero dependencies · Offline-capable · Tested · Works in Claude Code and claude.ai
 
-[![CI](https://github.com/YOUR_USERNAME/overkill-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/overkill-skills/actions)
+[![CI](https://github.com/zeiynz/claude-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/zeiynz/claude-devtools/actions)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![Deps](https://img.shields.io/badge/dependencies-0-brightgreen)
@@ -32,7 +32,7 @@ Most skills are a prompt in a markdown file. These pair **judgment** (`SKILL.md`
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/overkill-skills && cd overkill-skills
+git clone https://github.com/zeiynz/claude-devtools.git && cd claude-devtools
 ./install.sh              # Claude Code, all projects  (~/.claude/skills)
 ./install.sh --project    # Claude Code, this project only
 make package              # claude.ai: upload dist/*.skill in Settings → Capabilities → Skills
